@@ -1,7 +1,13 @@
-# Obsdn-dark-rmx
+# Obsdn-dark-rmx - by cannibalox
 a theme for Obsidian.md (light & dark mode)
-
 ![](https://github.com/cannibalox/Obsdn-dark-rmx/blob/master/Obsdn-Dark-Rmx.png)
+
+
+# My Tweaks to Obsdn-dark-rmx - by cannibalox
+ * Removed preview font (mono)
+ * Tag styling as buttons in preview mode
+ * Colors updated in dark mode 
+
 
 ## features
 * better transclusions :
