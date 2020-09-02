@@ -53,10 +53,10 @@ body {
 /* ======= LIGHT==============*/
 
 .theme-light {
-  --background-primary: #ffffff;
-  --background-primary-alt: #f0f2f5;
-  --background-secondary: #f2f3f5;
-  --background-secondary-alt: #e3e5e8;
+  --background-primary: #f0efea;
+  --background-primary-alt: #e4e4e4;
+  --background-secondary: #cacaca;
+  --background-secondary-alt: #ebeae1;
   --background-accent: #fff;
   --background-modifier-border: #ddd;
   --background-modifier-form-field: #fff;
@@ -67,10 +67,10 @@ body {
   --background-modifier-error-rgb: 230, 135, 135;
   --background-modifier-error-hover: #ff9494;
   --background-modifier-cover: rgba(0, 0, 0, 0.8);
-  --text-accent: #269dff;
+  --text-accent: #156db6;
   --text-accent-hover: #2da4ff;
-  --text-normal: #2e3338;
-  --text-muted: #6e6e6e;
+  --text-normal: #151718;
+  --text-muted: #575757;
   --text-faint: #999999;
   --text-error: #ce2222;
   --text-error-hover: #cb2c2;
@@ -453,7 +453,7 @@ svg.link {
 /*-------search pane---------*/
 input[type="text"],
 input[type="email"],
-input[type="password"], 
+input[type="password"],
 input[type="number"] {
   font-family: Barlow, Cairo, 'Inter', sans-serif;
   padding: 5px 8px;
