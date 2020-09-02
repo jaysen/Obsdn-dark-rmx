@@ -1,3 +1,5 @@
+/* my update on cannibalox obsdn dark rmx - jaysen */
+
 /* obsdn dark rmx - v202008260347 - by _ph / www.hpx1.com*/
 /* latin */
 
@@ -6,10 +8,10 @@ body {
   font-family: Barlow, Cairo, Inter, sans-serif;
   --font-monospace: Fira Code, Source Code Pro, monospace;
 }
-.CodeMirror pre.CodeMirror-line {
+/* .CodeMirror pre.CodeMirror-line {
   font-size: 13px;
   font-family: Fira Code, Source Code Pro, monospace;
-}
+} */
 
 /* ======= DARK ==============*/
 
