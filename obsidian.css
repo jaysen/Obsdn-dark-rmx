@@ -44,6 +44,10 @@ body {
   --accent-strong: #ec0d0d;
   --accent-mild: #e6b64f;
   --bw: #ffffff;
+  --tag: #e7e7e7;
+  --tag-hover: #ffffff;
+  --tag-bg: #324e77;
+  --tag-bg-hover: #193764;
 }
 
 /* ======= LIGHT==============*/
@@ -85,6 +89,10 @@ body {
   --accent-strong: #ff3333;
   --accent-mild: #e0a330;
   --bw: #000000;
+  --tag: #e7e7e7;
+  --tag-hover: #ffffff;
+  --tag-bg: #0347ad;
+  --tag-bg-hover: #193764;
 }
 
 /* code block remove shadow */
@@ -111,24 +119,54 @@ body {
 /* ====== Tag Pills ======== */
 
 .tag {
-  background-color: var(--text-accent);
+  background-color: var(--tag-bg);
   border: none;
-  color: white !important;
-  font-size: 11px;
-  line-height: 1.6em;
+  color: var(--tag) !important;
+  font-size: 12px;
+  line-height: 1.8em;
   padding: 0px 7px 1px 7px;
   text-align: center;
   text-decoration: none !important;
   display: inline-block;
-  margin: 0px 4px;
+  margin: 0px 2px;
   cursor: pointer;
   border-radius: 14px;
 }
 
 .tag:hover {
-  color: white;
-  background-color: var(--text-accent-hover);
+  color: var(--tag-hover) !important;
+  background-color: var(--tag-bg-hover);
 }
+
+/* ====== Tag Pills - PREVIEW ====== */
+
+.cm-s-obsidian span.cm-hashtag-begin {
+  color: var(--tag) !important;
+  font-size: 13px;
+  padding-left: 6px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.cm-s-obsidian span.cm-hashtag-end {
+  color: var(--tag) !important;
+  font-size: 13px;
+  padding-right: 6px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.cm-s-obsidian span.cm-hashtag {
+  /* color: white !important; */
+  text-decoration: none;
+  background-color: var(--tag-bg);
+}
+
+/* ====== Special tags ====== */
 
 .tag[href^="#obsidian"] {
   background-color: #4d3ca6;
