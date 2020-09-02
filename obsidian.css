@@ -16,10 +16,10 @@ body {
 /* ======= DARK ==============*/
 
 .theme-dark {
-  --background-primary: #212121;
+  --background-primary: #202020;
   --background-modifier-border: #303030;
   --background-primary-alt: #171717;
-  --background-secondary: #212121;
+  --background-secondary: #1b1b1b;
   --background-secondary-alt: #000000;
   --background-modifier-box-shadow: rgba(0, 0, 0, 0.85);
   --text-accent: #3e93d8;
