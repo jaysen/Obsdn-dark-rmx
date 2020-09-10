@@ -16,14 +16,14 @@ body {
 /* ======= DARK ==============*/
 
 .theme-dark {
-  --background-primary: #202020;
+  --background-primary: #141414;
   --background-modifier-border: #303030;
   --background-primary-alt: #171717;
   --background-secondary: #1b1b1b;
   --background-secondary-alt: #000000;
   --background-modifier-box-shadow: rgba(0, 0, 0, 0.85);
   --text-accent: #3e93d8;
-  --text-accent-hover: #2b60af;
+  --text-accent-hover: #cc287f;
   --text-normal: #dcddde;
   --text-muted: #999;
   --text-faint: #666;
